@@ -65,7 +65,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency(%q<mysql-pr>, [">= 2.9.10"])
   s.add_dependency(%q<postgres-pr>, ["= 0.6.3"])
-  s.add_dependency(%q<activerecord>, [">= 3.2.6"])
+  s.add_dependency(%q<activerecord>, [">= 3.0.20"])
   s.add_dependency(%q<test-unit>, [">= 2.1.1"])
 
   if RUBY_PLATFORM == 'java'
